@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+<h1>Task Calculator</h1>
+
+<div id="task-details">
+  <h2>Task Details</h2>
+  <label for="task-name">Task Name:</label>
+  <input type="text" id="task-name">
+
+  <label for="hours-required">Hours Required:</label>
+  <input type="number" id="hours-required">
+</div>
+
+<div id="deadline">
+  <h2>Deadline</h2>
+  <label for="deadline-date">Deadline Date:</label>
+  <input type="date" id="deadline-date">
+</div>
+
+<div id="schedule">
+  <h2>Schedule</h2>
+  <p>Enter your schedule below:</p>
+  <textarea id="schedule-input" rows="5"></textarea>
+</div>
+
+<button id="calculate-btn">Calculate</button>
+
+<div id="result">
+  <h2>Result</h2>
+  <p id="hours-per-day"></p>
+</div>
+
+<!-- Custom JavaScript -->
+<script type="text/javascript" src="app.js"></script>
+
+</body>
+</html>
